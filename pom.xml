@@ -6,6 +6,7 @@
 
   <groupId>julyraj1</groupId>
   <artifactId>etikela</artifactId>
+  <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
 
   <name>etikela</name>
@@ -25,6 +26,12 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+   <dependency>
+  <groupId>org.apache.maven.plugins</groupId>
+  <artifactId>maven-war-plugin</artifactId>
+  <version>3.2.2</version>
+  <type>maven-plugin</type>
+</dependency>
     <dependency>
     <groupId>org.codehaus.mojo</groupId>
     <artifactId>sonar-maven-plugin</artifactId>
