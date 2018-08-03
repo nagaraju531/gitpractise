@@ -25,20 +25,6 @@
             <uniqueVersion>true</uniqueVersion>
         </snapshotRepository>
     </distributionManagement>
-         <profile>
-  <id>sonar</id>
-  <activation>
-  <activeByDefault>true</activeByDefault>
- </activation>
-  <properties>
-  <sonar.jdbc.url>jdbc:mysql://192.168.33.11:3306/sonar?useUnicode=true&amp;characterEncoding=utf8</sonar.jdbc.url>
-  <sonar.jdbc.username>sonar</sonar.jdbc.username>
-  <sonar.jdbc.password>sonar</sonar.jdbc.password>
-  <!-- SERVER ON A REMOTE HOST -->
-  <sonar.host.url>http://192.168.33.11:9000</sonar.host.url>
-  </properties>
-</profile>
-
     <build>
         <plugins>
             <plugin>
