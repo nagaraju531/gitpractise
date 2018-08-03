@@ -1,0 +1,5 @@
+projectKey=com.github.dzwicker.dart:dart-maven-plugin-example
+serverUrl=http://192.168.33.11:9000
+dashboardUrl=http://192.168.33.11:9000/dashboard/index/com.github.dzwicker.dart:dart-maven-plugin-example
+ceTaskId=AWT6G-FfK6kkW_iTykhD
+ceTaskUrl=http://192.168.33.11:9000/api/ce/task?id=AWT6G-FfK6kkW_iTykhD
